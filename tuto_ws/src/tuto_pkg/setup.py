@@ -22,7 +22,12 @@ setup(
         'console_scripts': [
             'simple_publisher = tuto_pkg.simple_pub: main',
             'simple_subscriber = tuto_pkg.simple_sub: main',
-            'simple_param_node = tuto_pkg.simple_parameter: main'
+            'simple_param_node = tuto_pkg.simple_parameter: main',
+            'simple_service_node = tuto_pkg.simple_server_service: main',
+            'simple_service_client = tuto_pkg.simple_server_client: main',
+            'simple_action_server = tuto_pkg.simple_action_server: main',
+            'simple_action_client = tuto_pkg.simple_action_client: main',
+            'simple_lifecycle_node = tuto_pkg.lifecycle_node: main'
         ],
     },
 )
