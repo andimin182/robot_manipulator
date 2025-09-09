@@ -1,4 +1,5 @@
 # Robot Manipulator
+The robot manipulator is a 3 DoF manipulator with a gripper (there are 2 extra joints to open/close gripper).
 
 ## Installation
 - Clone the repo via *git clone  https://github.com/andimin182/robot_manipulator.git*
@@ -9,3 +10,13 @@
 - Run a *colcon build* from the ros_ws folder to build the packages
 - Source the setup.bash: *source install/setup.bash*
 - Ready to use the packages
+
+## Packages
+- robot_controller_pkg: pkg containing the ros2_control controllers configuration
+- robot_moveit: pkg containing the moveit configuration
+- robot_msgs: pkg with the custom msgs
+- robot_simulation_pkg: pkg with the robot URDF model
+- tuto_cmake_pkg: pkg containing examples of nodes in C++
+- tuto_pkg: pkg containing examples of nodes in Python
+- robot_utils: pkg with some custom utils (empty)
+
