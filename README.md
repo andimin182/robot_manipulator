@@ -13,7 +13,7 @@ The robot manipulator is a 3 DoF manipulator with a gripper (there are 2 extra j
 
 ## Packages
 - **robot_controller_pkg**: pkg containing the ros2_control controllers configuration.
-    Launch controllers: ros2 launch robot_controller_pkg robpt_controller.launch.py
+    Launch controllers: ros2 launch robot_controller_pkg robot_controller.launch.py
 - **robot_moveit**: pkg containing the moveit configuration.
     Launch rviz with moveit: ros2 launch robot_moveit moveit.launch.py
 - **robot_msgs**: pkg with the custom msgs.
