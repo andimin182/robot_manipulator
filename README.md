@@ -12,14 +12,14 @@ The robot manipulator is a 3 DoF manipulator with a gripper (there are 2 extra j
 - Ready to use the packages
 
 ## Packages
-- **robot_controller_pkg**: pkg containing the ros2_control controllers configuration
+- **robot_controller_pkg**: pkg containing the ros2_control controllers configuration.
     Launch controllers: ros2 launch robot_controller_pkg robpt_controller.launch.py
-- **robot_moveit**: pkg containing the moveit configuration
+- **robot_moveit**: pkg containing the moveit configuration.
     Launch rviz with moveit: ros2 launch robot_moveit moveit.launch.py
-- **robot_msgs**: pkg with the custom msgs
-- **robot_simulation_pkg**: pkg with the robot URDF model
+- **robot_msgs**: pkg with the custom msgs.
+- **robot_simulation_pkg**: pkg with the robot URDF model.
     Launch gazebo simulation: ros2 launch robot_simulation_pkg gazebo.launch.py
-- **tuto_cmake_pkg**: pkg containing examples of nodes in C++
-- **tuto_pkg**: pkg containing examples of nodes in Python
-- **robot_utils**: pkg with some custom utils (empty)
+- **tuto_cmake_pkg**: pkg containing examples of nodes in C++.
+- **tuto_pkg**: pkg containing examples of nodes in Python.
+- **robot_utils**: pkg with some custom utils (empty).
 
