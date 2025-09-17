@@ -1,3 +1,9 @@
-/tuto_ws/log/
-/tuto_ws/install/
-/tuto_ws/build/
+/ros_ws/log/
+/ros_ws/install/
+/ros_ws/build/
+/ros_ws/src/tx40_moveit/
+/ros_ws/src/tx40_controller/
+/ros_ws/src/tx40_msgs/
+/ros_ws/src/tx40_simulation/
+/ros_ws/src/tx40_simulation/
+/ros_ws/src/moveit_task_constructor/

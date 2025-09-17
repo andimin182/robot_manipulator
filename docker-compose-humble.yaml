@@ -34,5 +34,5 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      device: /home/andi/DockerDev/tuto_ros2/tuto_ws
+      device: /home/andi/DockerDev/manipulator_3R/ros_ws
       o: bind
