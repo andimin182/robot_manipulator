@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /root/ros_ws/build/robot_moveit
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/mtc_node.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/robot_moveit_uninstall.dir/clean
+clean: CMakeFiles/mtc_node.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +127,32 @@ robot_moveit_uninstall: CMakeFiles/robot_moveit_uninstall.dir/rule
 CMakeFiles/robot_moveit_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_moveit_uninstall.dir/build.make CMakeFiles/robot_moveit_uninstall.dir/clean
 .PHONY : CMakeFiles/robot_moveit_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/mtc_node.dir
+
+# All Build rule for target.
+CMakeFiles/mtc_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mtc_node.dir/build.make CMakeFiles/mtc_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mtc_node.dir/build.make CMakeFiles/mtc_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ros_ws/build/robot_moveit/CMakeFiles --progress-num=1,2 "Built target mtc_node"
+.PHONY : CMakeFiles/mtc_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mtc_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ros_ws/build/robot_moveit/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mtc_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ros_ws/build/robot_moveit/CMakeFiles 0
+.PHONY : CMakeFiles/mtc_node.dir/rule
+
+# Convenience name for target.
+mtc_node: CMakeFiles/mtc_node.dir/rule
+.PHONY : mtc_node
+
+# clean rule for target.
+CMakeFiles/mtc_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mtc_node.dir/build.make CMakeFiles/mtc_node.dir/clean
+.PHONY : CMakeFiles/mtc_node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

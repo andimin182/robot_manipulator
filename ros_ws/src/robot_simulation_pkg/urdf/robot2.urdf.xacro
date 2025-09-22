@@ -195,4 +195,13 @@
         <limit lower="0.0" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
     </joint>
 
+    <!-- End Effector frame-->
+    <link name="end_effector"/>
+
+    <joint name="joint_6" type="fixed">
+        <parent link="claw_support"/>
+        <child link="end_effector"/>
+        <origin xyz="-0.13 0.59 -0.15" rpy="0 0 0"/>
+    </joint>
+
 </robot>

@@ -36,11 +36,17 @@ def generate_launch_description():
                                          
                                          )
     
+    # Load  ExecuteTaskSolutionCapability so we can execute found solutions in simulation
+    move_group_capabilities = {
+        "capabilities": "move_group/ExecuteTaskSolutionCapability"
+    }
+    
     moveit_node = Node(
         package="moveit_ros_move_group",
         executable="move_group",
         output="screen",
         parameters=[moveit_config.to_dict(), 
+                    move_group_capabilities,
                     {"use_sim_time": is_sim},
                     {"publish_robot_description_semantic": True}],
 

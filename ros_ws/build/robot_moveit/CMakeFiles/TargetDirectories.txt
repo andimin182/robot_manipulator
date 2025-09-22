@@ -1,5 +1,6 @@
 /root/ros_ws/build/robot_moveit/CMakeFiles/uninstall.dir
 /root/ros_ws/build/robot_moveit/CMakeFiles/robot_moveit_uninstall.dir
+/root/ros_ws/build/robot_moveit/CMakeFiles/mtc_node.dir
 /root/ros_ws/build/robot_moveit/CMakeFiles/test.dir
 /root/ros_ws/build/robot_moveit/CMakeFiles/edit_cache.dir
 /root/ros_ws/build/robot_moveit/CMakeFiles/rebuild_cache.dir

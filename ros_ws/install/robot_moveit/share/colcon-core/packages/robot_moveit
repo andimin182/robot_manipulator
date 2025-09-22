@@ -1,1 +1,1 @@
-moveit_config_utils:ros2launch:rviz2
+geometry_msgs:moveit_config_utils:moveit_ros_planning_interface:moveit_task_constructor_core:rclcpp:ros2launch:rviz2
