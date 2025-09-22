@@ -21,15 +21,18 @@ A 3R manipulator with a gripper.
 - tuto_pkg: pkg with nodes in Python
 
 ## Functionalities
-- Pick and Place task: 
+- **Pick and Place task**: 
+
 It implementes a Pick and Place task for the manipulator using the Moveit Task Constructor (MTC).
-To use is, please launch the manipulator rviz visualization with fake controllers:
+To use it, launch the manipulator rviz visualization with fake controllers:
 $ros2 launch robot_moveit moveit_fake.launch.py
 Then, launch the node creating the task:
 $ros2 launch robot_moveit mtc_node
 
-- Gazebo simulation
+- **Gazebo simulation with Moveit2**
+
 Run the gazebo simulation with ros2_control controllers and Moveit2 to generate trajectories and execute them:
+0. Change the xacro param use_face_control to false in robot_ros2_control.xacro
 1. $ros2 launch robot_simulation_pkg gazebo.launch.py
 2. $ros2 launch robot_controller_pkg controller.launch.py
 3. $ros2 launch robot_moveit moveit.launch.py
