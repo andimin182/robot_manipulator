@@ -1,4 +1,0 @@
-Invoking command in '/root/ros_ws/build/robot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/src/install/tuto_pkg:/root/ros_ws/install/tuto_pkg /usr/bin/cmake --build /root/ros_ws/build/robot_moveit -- -j4 -l4
-Invoked command in '/root/ros_ws/build/robot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/src/install/tuto_pkg:/root/ros_ws/install/tuto_pkg /usr/bin/cmake --build /root/ros_ws/build/robot_moveit -- -j4 -l4
-Invoking command in '/root/ros_ws/build/robot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/src/install/tuto_pkg:/root/ros_ws/install/tuto_pkg /usr/bin/cmake --install /root/ros_ws/build/robot_moveit
-Invoked command in '/root/ros_ws/build/robot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/src/install/tuto_pkg:/root/ros_ws/install/tuto_pkg /usr/bin/cmake --install /root/ros_ws/build/robot_moveit
