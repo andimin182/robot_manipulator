@@ -37,7 +37,8 @@ All packages are containerized using Docker Compose for reproducible development
 ## 2️⃣ Requirements
 
 - **Docker** ≥ 24.x  
-- **Docker Compose** ≥ 1.29  
+- **Docker Compose** ≥ 1.29
+- **MTC plugin**  
 
 Without Docker container, you need:
 
@@ -45,6 +46,7 @@ Without Docker container, you need:
 - **Ubuntu 22.04** (recommended)  
 - **X11 display support** for GUI tools (RViz, Gazebo)  
 - **Gazebo Fortress**  
+- **MTC plugin**
 
 ---
 
